@@ -4,3 +4,4 @@ checkpoint_/
 *.pyc
 # 注释
 /.idea/
+'.idea' 
