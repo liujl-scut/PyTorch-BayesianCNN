@@ -1,7 +1,7 @@
-############### Configuration file for Bayesian ###############
-layer_type = 'lrt'  # 'bbb' or 'lrt'
+# Configuration file for Bayesian
+layer_type = 'bbb'  # 'bbb' or 'lrt'
 activation_type = 'softplus'  # 'softplus' or 'relu'
-priors={
+priors = {
     'prior_mu': 0,
     'prior_sigma': 0.1,
     'posterior_mu_initial': (0, 0.1),  # (mean, std) normal_

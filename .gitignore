@@ -4,4 +4,6 @@ checkpoint_/
 *.pyc
 # 注释
 /.idea/
-'.idea' 
+'.idea'
+# git不再跟踪所有pyc文件
+*.pyc
